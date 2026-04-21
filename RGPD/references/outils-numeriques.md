@@ -1,66 +1,93 @@
----
-# Outils Numériques et Conformité RGPD pour les Organismes de Formation
+# Outils numériques et conformité RGPD pour les organismes de formation
 
-## Introduction
-En tant qu'organisme de formation (OF), vous agissez en qualité de **Responsable de Traitement** pour les données de vos apprenants, clients et formateurs. Les outils numériques que vous utilisez (LMS, visioconférence, signature électronique) agissent généralement en tant que **Sous-traitants**. 
+## Principe de départ
 
-À ce titre, vous avez l'obligation de s'assurer que ces outils présentent des garanties suffisantes quant à la mise en œuvre de mesures techniques et organisationnelles appropriées répondant aux exigences du RGPD.
+Un organisme de formation agit souvent comme responsable de traitement pour les données de ses apprenants, prospects, salariés, clients et intervenants. Les outils utilisés peuvent être sous-traitants, sous-traitants ultérieurs, voire parfois responsables de traitement pour certaines opérations propres.
 
----
+La skill ne doit pas figer des affirmations techniques ou commerciales sur un outil sans vérification à jour.
 
-## 1. Cartographie des outils métiers de la formation
+## 1. Méthode d'audit d'un outil
 
-### A. Plateformes LMS et Gestion de formation (ERP)
-Ces plateformes traitent des données d'identification, de vie professionnelle et des données de connexion.
+Pour chaque outil cité, analyser :
+- la finalité réelle dans l'OF ;
+- les catégories de données ;
+- les personnes concernées ;
+- le rôle juridique probable de l'éditeur ;
+- l'existence d'un contrat ou DPA ;
+- les sous-traitants ultérieurs ;
+- l'existence d'un transfert hors UE ;
+- le mécanisme invoqué pour ce transfert ;
+- les paramètres de sécurité utiles ;
+- les conditions de suppression, export, journalisation et restitution.
 
-*   **Formdev** : Formdev est un logiciel ERP tout-en-un en mode SaaS dédié aux organismes de formation. Il agit en tant que sous-traitant et s'engage à ne pas vendre ou louer les données. Il présente de fortes garanties de conformité :
-    *   **Hébergement localisé :** Les données sont hébergées 100 % en France sur des serveurs répartis dans plusieurs datacenters, avec des sauvegardes quotidiennes et un Plan de Reprise d'Activité (PRA).
-    *   **Fonctionnalités RGPD intégrées :** L'outil permet d'anonymiser en un clic les fiches des apprenants inactifs depuis une durée définie. Les données d'identification sont masquées, mais les informations restent conservées de manière anonyme pour vos statistiques et l'édition de votre Bilan Pédagogique et Financier (BPF).
-    *   **Sécurité et conformité :** Formdev est également certifié NF203 pour la facturation informatisée.
-*   **Digiforma** : Agit en tant que sous-traitant. Les données sont hébergées dans l'Union Européenne. Digiforma fait appel à des sous-traitants ultérieurs comme AWS (Irlande), Heroku (Irlande) et Brevo (Europe). Le client OF reste seul responsable du respect des obligations d'information et de la tenue du registre des traitements.
-*   **Teachizy** : Plateforme de création et de vente de formations. Elle agit comme sous-traitant pour les données des apprenants et exige des formateurs qu'ils recueillent le consentement adéquat. Les données sont hébergées en France chez O2switch et les paiements sont gérés par Stripe (avec des données bancaires chiffrées).
+## 2. Familles d'outils fréquemment rencontrées
 
-### B. Outils de Visioconférence
-*   **Zoom** : Outil largement utilisé pour les classes virtuelles. Zoom s'engage sur la conformité RGPD et propose un Addenda mondial sur le traitement des données (DPA). L'outil met également à disposition des fiches de données de confidentialité pour ses différents services.
+- ERP ou logiciel de gestion OF ;
+- LMS et plateforme e-learning ;
+- visioconférence ;
+- drive documentaire ;
+- signature électronique ;
+- emailing et CRM ;
+- formulaires en ligne ;
+- prise de rendez-vous ;
+- comptabilité et facturation ;
+- paiement en ligne.
 
-### C. Outils de Signature Électronique
-*   **Yousign** : Utilisé pour la signature de devis, conventions ou feuilles d'émargement. Yousign agit en tant que sous-traitant. Les données sont hébergées en Europe et Yousign met en place un "Accord de traitement des données" (DPA) intégré à son contrat. L'OF est responsable de la licéité des traitements et des instructions données à Yousign.
+## 3. Grille de restitution recommandée
 
-### D. Outils de Bureautique et Communication
-*   **Google Workspace** (Drive, Meet, Gmail, Docs) : Google agit comme sous-traitant pour les données clients. Google propose un amendement relatif au traitement des données ("Data Processing Amendment") et s'engage à maintenir des certifications de sécurité (ISO 27001, SOC 2, SOC 3).
-*   **Brevo (ex-Sendinblue)** : Outil d'emailing (également sous-traitant de Digiforma). Son accord de traitement des données (DPA) est accessible à la fin de ses Conditions générales d'utilisation.
+| Outil | Finalité | Données concernées | Rôle à confirmer | Transfert hors UE | DPA / contrat | Risque principal | Action recommandée |
+|---|---|---|---|---|---|---|---|
 
----
+## 4. Points de vigilance spécifiques
 
-## 2. Les Obligations Contractuelles : Le DPA (Data Processing Agreement)
+### 4.1 Visioconférence et enregistrements
 
-Pour chaque outil numérique utilisé, l'organisme de formation doit impérativement signer ou accepter un **Accord de traitement des données (DPA)**.
+- distinguer le simple usage en direct et l'enregistrement ;
+- documenter la finalité de l'enregistrement ;
+- limiter les accès ;
+- prévoir une durée ;
+- éviter de considérer l'enregistrement comme neutre ou automatique.
 
-**Que doit contenir ce DPA ?**
-*   Les instructions documentées de l'organisme de formation (Responsable de traitement).
-*   Les obligations de sécurité et de confidentialité du sous-traitant.
-*   La gestion des sous-traitants ultérieurs (l'outil doit vous informer de tout changement et vous laisser la possibilité de vous y opposer).
-*   Le sort des données à la fin du contrat (suppression ou restitution des données).
-*   L'obligation d'assistance en cas de demande d'exercice des droits par un apprenant (droit d'accès, rectification, etc.).
+### 4.2 LMS et suivi d'activité
 
----
+- vérifier quelles données de connexion, progression, temps passé ou traces sont collectées ;
+- vérifier si certains tableaux de bord créent un scoring ou une surveillance excessive ;
+- vérifier la durée de conservation des comptes et exports.
 
-## 3. Gestion des Transferts Internationaux (Hors UE)
+### 4.3 Drive, GED et partages externes
 
-L'utilisation d'outils numériques implique souvent des transferts de données en dehors de l'Espace Économique Européen (EEE). Le RGPD impose un encadrement strict pour garantir que les données conservent un niveau de protection "substantiellement équivalent" à celui de l'UE.
+- vérifier les habilitations ;
+- vérifier les liens de partage ;
+- éviter les dossiers globaux partagés sans filtrage ;
+- documenter les règles d'archivage et de purge.
 
-### A. Décisions d'adéquation
-Certains pays bénéficient d'une "décision d'adéquation" de la Commission Européenne (ex: Japon, Canada, Suisse, Royaume-Uni, Argentine). Le transfert vers des outils hébergés dans ces pays est autorisé sans restriction particulière.
+## 5. Transferts hors UE
 
-### B. Le cas des États-Unis et le Data Privacy Framework (DPF)
-Suite à l'invalidation du *Privacy Shield* (arrêt Schrems II), un nouveau cadre est entré en vigueur en juillet 2023 : le **Data Privacy Framework (DPF)**. 
-*   **Principe** : Si un outil américain (ex: Google, Zoom, AWS, Microsoft) est auto-certifié et inscrit sur la liste active du DPF (département du commerce américain), le transfert est considéré comme légal, comme s'il restait dans l'UE.
-*   **Action requise** : L'organisme de formation doit vérifier que l'outil est bien certifié "Actif" sur le site du DPF.
+Si l'outil implique un transfert hors UE, vérifier le fondement réel :
+- décision d'adéquation ;
+- Data Privacy Framework si l'organisme américain concerné est certifié ;
+- clauses contractuelles types ;
+- autre mécanisme prévu par le chapitre V du RGPD.
 
-### C. Outils hors pays adéquats (Clauses Contractuelles Types - CCT)
-Si l'outil n'est pas dans un pays adéquat et n'est pas certifié DPF, l'OF doit s'appuyer sur l'article 46 du RGPD, généralement en signant des **Clauses Contractuelles Types (CCT/SCC)**.
-Toutefois, le Comité Européen de la Protection des Données (CEPD) rappelle que ces clauses ne lient pas les autorités publiques du pays tiers. L'OF doit alors :
-1.  Évaluer la législation du pays tiers.
-2.  Mettre en place des **mesures supplémentaires** si la législation locale permet un accès disproportionné aux données par les gouvernements. 
-3.  **Exemples de mesures techniques efficaces** : Le chiffrement de bout en bout des données (où l'OF conserve les clés) ou la pseudonymisation stricte.
-```
+Ne pas écrire par automatisme :
+- "outil américain = interdit" ;
+- "outil américain = CCT obligatoires" ;
+- "hébergé en Europe = pas de transfert".
+
+## 6. Clause article 28 et audit contractuel
+
+La skill peut produire une check-list article 28 pour auditer ou rédiger les clauses essentielles :
+- objet, durée, finalité ;
+- catégories de données et personnes concernées ;
+- confidentialité ;
+- sécurité ;
+- assistance ;
+- sort des données ;
+- audit ;
+- sous-traitance ultérieure.
+
+## Références à privilégier
+
+- RGPD - articles 28, 32, 44 et suivants.
+- CNIL - sous-traitant, transferts hors UE, clauses contractuelles types.
+- Commission européenne - décisions d'adéquation.
