@@ -1,4 +1,4 @@
-Voici le fichier de référence complet en format Markdown, structuré et rédigé spécifiquement pour les Organismes de Formation (OF) traitant des données à risque élevé, en s'appuyant sur les sources fournies.
+
 
 ```markdown
 # Fichier de référence : Analyse d'Impact relative à la Protection des Données (AIPD) 
