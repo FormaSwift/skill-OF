@@ -1,38 +1,63 @@
-# Dossier RGPD - Skill Organismes de Formation
 
-Ce dossier contient une skill RGPD dédiée aux organismes de formation, CFA et formateurs indépendants.
+## 2) `README.md`
 
-## Contenu
+```markdown
+# Skill RGPD pour organismes de formation
 
-- `skill.md` - cœur de la skill, avec posture, modules d'analyse et règles de production ;
-- `references/qualiopi-rgpd.md` - articulation correcte entre RGPD, Qualiopi et certification CNIL des prestataires de formation RGPD ;
-- `references/secteurs-specifiques.md` - repères pour mineurs, handicap, organismes publics, apprentissage ;
-- `references/aipd.md` - méthode de qualification et de lancement d'une AIPD ;
-- `references/outils-numeriques.md` - méthode d'audit des outils et transferts ;
-- `references/cas-usages-prompts-rgpd-of.md` - bibliothèque de formulations à reconnaître ;
-- `references/durees-conservation-of.md` - tableau de référence des durées de conservation pour OF, avec distinction entre durée légale, recommandée, probatoire et à documenter ;
-- autres fichiers de référence à enrichir ou consolider.
+Cette skill transforme Claude en assistant RGPD opérationnel spécialisé pour les organismes de formation, CFA et formateurs indépendants.
 
-## Logique de la skill
+Elle est conçue pour aider à produire, corriger, adapter ou relire des livrables concrets liés à la conformité RGPD dans le contexte spécifique de la formation professionnelle.
 
-La skill doit :
-- reconnaître les demandes documentaires courantes ;
-- analyser un dossier ou un tableau en logique RGPD ;
-- produire des livrables directement réutilisables ;
-- éviter les affirmations absolues si le contexte peut faire varier la solution ;
-- distinguer le RGPD, Qualiopi et la certification CNIL spécifique des prestataires de formation à la protection des données.
+## Objectif
 
-## Points déjà consolidés
+L'objectif n'est pas d'expliquer le RGPD de manière abstraite, mais d'aider à traiter des besoins très concrets, par exemple :
 
-Cette version a été revue pour corriger plusieurs risques fréquents :
-- confusion entre guide de lecture Qualiopi et référentiel CNIL "formation RGPD" ;
-- formulations trop absolues sur le consentement, le DPO, les enregistrements et les données de santé ;
-- affirmations techniques figées sur des outils sans vérification à jour ;
-- durées de conservation posées comme automatiques sans contextualisation.
+- générer ou mettre à jour un registre des traitements ;
+- rédiger une politique de confidentialité ;
+- corriger une clause d'information préalable ;
+- produire une procédure de suppression et d'archivage ;
+- répondre à une demande d'exercice des droits ;
+- gérer un incident ou une violation de données ;
+- auditer des outils numériques utilisés dans un OF ;
+- articuler les exigences RGPD avec les réalités Qualiopi et les pratiques documentaires d'un organisme de formation.
 
-## Points à poursuivre
+## Contenu du dossier
 
-Une seconde passe peut encore être menée sur :
-- les modèles de réponses aux droits des personnes ;
-- les tableaux comparatifs par financeur ;
-- les modèles de clauses et procédures prêts à l'emploi.
+Le dossier repose sur trois briques principales :
+
+- `skill.md` : le coeur de la skill ;
+- `references/` : les fichiers de référence et de méthode utilisés comme garde-fous ;
+- `templates/` : les modèles rédactionnels prêts à adapter.
+
+Le fichier `rgpd-of.skill` correspond à la version packagée à importer dans Claude.
+
+## Structure du dossier
+
+```text
+RGPD/
+├── GUIDE.md
+├── README.md
+├── rgpd-of.skill
+├── skill.md
+├── references/
+│   ├── Manuel-procedure-rgpd/
+│   ├── aipd.md
+│   ├── cas-usages-prompts-rgpd-of.md
+│   ├── droits-personnes.md
+│   ├── durees-conservation-of.md
+│   ├── outils-numeriques.md
+│   ├── qualiopi-rgpd.md
+│   ├── sanctions-jurisprudence.md
+│   └── secteurs-specifiques.md
+└── templates/
+    ├── charte-informatique-rgpd.md
+    ├── clause-information-prealable.md
+    ├── clausier-rgpd-prestation.md
+    ├── engagement-confidentialite.md
+    ├── fiche-sensibilisation-rgpd.md
+    ├── politique-confidentialite-of.md
+    ├── procedure-suppression-archivage.md
+    ├── procedure-violation-donnees.md
+    ├── quiz-sensibilisation-rgpd.md
+    ├── registre-traitements-of.md
+    └── reponse-exercice-droits.md
