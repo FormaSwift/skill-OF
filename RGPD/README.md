@@ -1,5 +1,5 @@
 
-## 2) `README.md`
+## README.md`
 
 ```markdown
 # Skill RGPD pour organismes de formation
