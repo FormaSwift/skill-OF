@@ -1,159 +1,66 @@
-# Qualiopi et RGPD pour organismes de formation
+# Articulation opérationnelle entre Qualiopi et RGPD
 
-> Ce document s'appuie sur le Guide de lecture Qualiopi (v9) et la Délibération CNIL n° 2020-139.  
-> Conformément a l'exigence C01, la conformité a Qualiopi constitue le socle indispensable pour toute formation RGPD certifiée par la CNIL.
+## Point de départ : ne pas confondre deux cadres distincts
 
----
+Le RGPD et Qualiopi ne poursuivent pas le même objet.
 
-## Critère 1 - Information du public sur les prestations
+- Le **RGPD** encadre le traitement des données personnelles.
+- **Qualiopi** encadre la qualité des processus des prestataires d'actions concourant au développement des compétences.
+- La **certification CNIL des prestataires de formation à la protection des données** est un dispositif encore différent, volontaire, réservé aux organismes qui proposent des formations RGPD et souhaitent cette reconnaissance spécifique.
 
-Assurer la transparence sur le périmètre de la formation RGPD.
+## Ce qu'il faut éviter d'affirmer
 
-### Indicateur 1 - Information détaillée
-Le prestataire doit préciser si son offre couvre l'intégralité du référentiel général d'aptitudes et de compétences de la CNIL (C04).
+Il est inexact de présenter :
+- Qualiopi comme un "socle indispensable" pour toute formation RGPD certifiée par la CNIL ;
+- le guide de lecture Qualiopi comme un texte contenant un chapitre RGPD explicite ;
+- les critères du référentiel CNIL de certification des prestataires de formation RGPD comme s'ils étaient des indicateurs Qualiopi.
 
-### Indicateur 1 - Précision des limites
-En cas de couverture partielle, l'organisme de formation doit explicitement informer l'apprenant et le commanditaire :
-- des exclusions ;
-- des limites de prise en charge ;
-- des prérequis spécifiques qui en résultent.  
-Référence : C05.
+## Ce qu'il faut expliquer à un organisme de formation
 
----
+Même si le guide de lecture Qualiopi ne contient pas d'indicateur autonome intitulé "RGPD", les pratiques auditées mobilisent très souvent des données personnelles.
 
-## Critère 2 - Conception et adaptation des prestations
+Le RGPD intervient donc en appui transverse sur des processus tels que :
+- l'information du public ;
+- les formulaires de contact, de candidature ou d'inscription ;
+- le recueil des besoins et le positionnement ;
+- la gestion des pièces justificatives ;
+- les adaptations de parcours, notamment en cas de handicap ;
+- les évaluations, émargements, preuves de réalisation ;
+- les questionnaires de satisfaction ;
+- la gestion documentaire et les habilitations ;
+- les transmissions aux financeurs et partenaires.
 
-Structurer l'ingénierie pédagogique autour des compétences relatives aux données personnelles.
+## Lecture utile pour un OF : tableau d'articulation
 
-### Indicateur 4 - Analyse du besoin
-L'organisme de formation doit définir une procédure de recueil et d'analyse des besoins spécifiques du commanditaire et des apprenants (C07).
+| Processus OF | Point de vigilance RGPD | Livrables utiles |
+|---|---|---|
+| Site web et information du public | mentions d'information, formulaires, cookies, minimisation | politique de confidentialité, mentions courtes, gestion des cookies |
+| Inscription et contractualisation | finalités, base légale, pièces demandées, durées | mentions RGPD, tableau de minimisation, registre |
+| Positionnement et recueil des besoins | données strictement nécessaires, questions sensibles | formulaire allégé, notice interne, grille de tri |
+| Gestion du handicap et des adaptations | article 9 RGPD, besoin d'aménagement, accès restreints | procédure handicap-RGPD, matrice d'accès, formulaire dédié |
+| Distanciel, LMS, visio | rôles des outils, enregistrements, transferts hors UE | audit outils, DPA, check-list paramétrage |
+| Émargements, évaluations, preuves financeurs | minimisation, partage au nécessaire, conservation | registre, procédure d'archivage, tableau des destinataires |
+| Satisfaction et amélioration continue | anonymisation ou nominatif justifié, durée | questionnaire revu, procédure de traitement des réponses |
+| Audit et GED | habilitations, traçabilité, durée de conservation | matrice RACI, politique d'archivage, plan de purge |
 
-### Indicateur 5 - Objectifs opérationnels
-Les objectifs doivent etre exprimés en termes d'acquis d'aptitudes et de compétences, en s'appuyant sur l'Annexe 1 de la CNIL (C06).
+## Cas particulier : OF qui forme au RGPD
 
-### Indicateur 6 - Contenus et modalités
-Les programmes doivent intégrer systématiquement :
-- une dimension théorique ;
-- une dimension pratique.  
-Référence : C10.
+Si l'organisme commercialise des formations RGPD, il faut distinguer :
 
-Pour les formations sectorielles ou thématiques, l'organisme de formation doit également intégrer les référentiels spécifiques de la CNIL et du CEPD (C10).
+1. **sa conformité RGPD en tant qu'organisation** ;
+2. **la qualité de son offre de formation au sens Qualiopi** ;
+3. **l'éventuelle certification CNIL des prestataires de formation à la protection des données**, qui obéit à un référentiel propre.
 
-### Indicateur 7 - Adéquation certification
-Si la formation prépare a une certification agréée par la CNIL, ses critères doivent etre intégrés dès la phase de définition des objectifs (C09).
+## Conseils de restitution par la skill
 
----
+Quand l'utilisateur parle de Qualiopi et RGPD :
+- ne pas inventer d'indicateur Qualiopi RGPD ;
+- raisonner en termes d'impact transverse sur les pratiques auditées ;
+- distinguer ce qui relève du guide Qualiopi, du RGPD et du référentiel CNIL "formation RGPD" ;
+- proposer des preuves documentaires utiles sans les présenter comme des obligations Qualiopi autonomes.
 
-## Critère 3 - Mise en oeuvre et évaluation des prestations
+## Références à mobiliser
 
-Valider l'acquisition effective des réflexes de protection des données.
-
-### Indicateur 10 - Adaptation
-Pour les offres catalogue préexistantes, l'organisme de formation doit démontrer l'adaptation des contenus aux besoins complémentaires identifiés en amont (C18).
-
-### Indicateur 11 - Évaluation des acquis
-Les modalités d'évaluation documentées doivent impérativement couvrir la totalité des objectifs pédagogiques de la session (C11).
-
----
-
-## Critère 4 - Moyens pédagogiques et techniques
-
-Garantir un environnement conforme et un suivi rigoureux.
-
-### Indicateur 17 - Environnement et moyens
-
-#### Conformité RGPD de l'organisme de formation
-Le prestataire doit appliquer a ses propres traitements, notamment d'évaluation et de communication, les règles du RGPD (C03).
-
-#### Point de contact
-Désignation d'un interlocuteur identifié comme point de contact pour la CNIL (C29).
-
-### Indicateur 19 - Ressources pédagogiques
-Tenue d'une liste précise des sessions réalisées, incluant :
-- les noms des intervenants ;
-- le volume d'apprenants ayant terminé le parcours.  
-Référence : C20.
-
----
-
-## Critère 5 - Qualification et compétences des personnels
-
-Exiger une double expertise juridique et technique.
-
-### Indicateur 21 - Compétences de l'équipe
-Le personnel traitant la demande doit savoir identifier les thématiques complexes ou sectorielles liées aux données personnelles (C21).
-
-### Indicateur 22 - Profil des formateurs et concepteurs
-
-#### Expérience
-Justifier de 3 ans d'expérience professionnelle :
-- en sécurité de l'information pour un profil technique ;
-- ou en droit de la protection des données pour un profil juridique.  
-Référence : C22.
-
-#### Niveau académique
-Le niveau attendu est :
-- Master 2 en droit ou en informatique ;
-- ou formation diplômante RGPD.  
-
-A défaut, une expérience de 5 ans a temps plein est requise (C23).
-
-#### Aptitudes pédagogiques
-Justifier d'une expérience en formation diplômante ou etre évalué lors de la première intervention (C24).
-
-#### Maintien des connaissances
-L'organisme de formation garantit l'entretien actif des connaissances des intervenants (C25).
-
----
-
-## Critère 6 - Veille et inscription dans son environnement
-
-Maintenir les contenus a l'état de l'art législatif et technique.
-
-### Indicateur 23 - Veille réglementaire
-Suivi strict :
-- de l'actualité législative ;
-- de la jurisprudence ;
-- des mesures correctives de la CNIL.  
-Référence : C12.
-
-### Actualisation des contenus
-
-#### Cycle de 3 mois
-L'organisme de formation s'assure que tout contenu de formation a été actualisé depuis moins de 3 mois (C14).
-
-#### Impact de la veille
-Les contenus sont mis a jour en fonction :
-- des lignes directrices du CEPD ;
-- de l'évolution des menaces.  
-Référence : C13.
-
-### Indicateur 25 - Veille technologique
-Maîtrise de l'état de l'art en sécurité de l'information (C12).
-
-### Gestion documentaire
-Traçabilité des modifications par un contrôle des versions comprenant :
-- l'auteur ;
-- la date ;
-- l'objet de la modification.  
-Référence : C17.
-
-### Indicateur 27 - Sous-traitance
-Vérification régulière de la conformité des sous-traitants a ce référentiel spécifique (C02).
-
----
-
-## Critère 7 - Appréciations et réclamations
-
-Évaluer la qualité et traiter les litiges avec réactivité.
-
-### Indicateur 30 - Recueil des appréciations
-Évaluer spécifiquement la qualité des ressources documentaires et humaines mobilisées pour la formation RGPD (C27).
-
-### Indicateur 31 - Traitement des réclamations
-
-#### Délais CNIL
-Accusé de réception systématique et clôture du traitement sous 2 mois maximum (C28).
-
-#### Complexité
-En cas de dossier complexe, information du plaignant dans le premier mois sur le délai supplémentaire applicable (C28).
+- Guide de lecture du Référentiel national qualité - version en vigueur.
+- CNIL - Certification des prestataires de formation à la protection des données.
+- RGPD - articles 5, 6, 9, 13, 14, 28, 30, 32, 35.
