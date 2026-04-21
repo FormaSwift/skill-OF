@@ -1,306 +1,306 @@
-Reference - Gérer les demandes entrantes d'exercice de droits
-RGPD pour organismes de formation
-1. Finalité du document
+# Référence - Exercice des droits RGPD
+## Gérer les demandes entrantes dans un organisme de formation
 
-Ce document sert de base de référence pour analyser et traiter les demandes d'exercice de droits adressées à un organisme de formation.
+## 1. Objet
 
-Il doit aider la skill à :
+Cette référence fixe les règles opérationnelles et juridiques à appliquer pour traiter les demandes d'exercice de droits adressées à un organisme de formation.
 
-qualifier la demande ;
-identifier le ou les droits concernés ;
-rappeler les règles RGPD applicables ;
-détecter les limites légales au droit demandé ;
-proposer une réponse opérationnelle prudente ;
-signaler les cas nécessitant une validation humaine.
-2. Périmètre
+Elle doit aider la skill à :
+- identifier le droit exercé ;
+- vérifier si la demande est suffisamment claire ;
+- déterminer si une vérification d'identité est nécessaire ;
+- repérer les limites légales à la communication, à la rectification ou à l'effacement ;
+- proposer un projet de réponse prudent ;
+- signaler les cas nécessitant une validation humaine.
 
-Ce document vise les demandes formulées par :
+## 2. Portée
 
-apprenants ;
-anciens apprenants ;
-prospects ;
-clients personnes physiques ;
-formateurs indépendants ;
-salariés ;
-toute personne concernée dont les données sont traitées par l'organisme.
+Cette référence s'applique aux demandes formulées par :
+- les apprenants ;
+- les anciens apprenants ;
+- les prospects ;
+- les clients personnes physiques ;
+- les formateurs ;
+- les salariés ;
+- toute autre personne physique dont les données sont traitées par l'organisme.
 
-Droits principalement couverts :
+Droits couverts :
+- droit d'accès ;
+- droit de rectification ;
+- droit à l'effacement ;
+- droit d'opposition ;
+- droit à la limitation.
 
-droit d'accès ;
-droit de rectification ;
-droit à l'effacement ;
-droit d'opposition ;
-droit à la limitation.
-3. Base légale minimale à mobiliser
+Sont exclus d'un traitement automatisé sans validation humaine :
+- les situations complexes liées au dossier médical ;
+- les dossiers mêlant RGPD et stratégie contentieuse ;
+- les situations relevant de plusieurs régimes juridiques imbriqués ;
+- les demandes pour lesquelles les obligations de conservation sont incertaines.
 
-La skill doit connaître et, si utile, citer :
+## 3. Ancrages juridiques
 
-RGPD, article 12 ;
-RGPD, article 15 ;
-RGPD, article 16 ;
-RGPD, article 17 ;
-RGPD, article 18 ;
-RGPD, article 21 ;
-Code de commerce, article L123-22 ;
-règles de conservation ou de contrôle propres au contexte du dossier ;
-politique interne d'archivage et de conservation de l'organisme, si elle existe.
-4. Doctrine opérationnelle à appliquer
-4.1 Délai de réponse
+La skill doit connaître au minimum :
+- RGPD, article 12 ;
+- RGPD, article 15 ;
+- RGPD, article 16 ;
+- RGPD, article 17 ;
+- RGPD, article 18 ;
+- RGPD, article 21 ;
+- Code de commerce, article L123-22 ;
+- les règles de conservation applicables selon le financement, le contrôle, la comptabilité, le contentieux ou la politique interne.
+
+La skill ne doit jamais supposer qu'une seule durée de conservation s'applique à tous les documents.
+
+## 4. Principes directeurs
+
+### 4.1 Délai de réponse
 
 Règle :
-
-répondre dans les meilleurs délais ;
-au plus tard dans le mois suivant la réception de la demande.
+- répondre dans les meilleurs délais ;
+- répondre au plus tard dans le mois suivant la réception de la demande.
 
 Prolongation :
+- possible de 2 mois supplémentaires si la demande est complexe ou si le nombre de demandes est élevé ;
+- le demandeur doit être informé dans le premier mois, avec indication des motifs.
 
-possible de 2 mois supplémentaires si la demande est complexe ou si le nombre de demandes est élevé ;
-le demandeur doit être informé de la prolongation et de ses motifs dans le premier mois.
-
-Point d'attention :
-
-ne pas annoncer une prolongation automatiquement ;
-la motiver.
-4.2 Gratuité
+### 4.2 Gratuité
 
 Règle :
+- l'exercice des droits est gratuit.
 
-l'exercice des droits est gratuit.
+Exception possible :
+- frais raisonnables pour des copies supplémentaires ;
+- frais raisonnables ou refus en cas de demande manifestement infondée ou excessive.
 
-Exception :
-
-frais raisonnables possibles pour des copies supplémentaires ;
-ou si la demande est manifestement infondée ou excessive.
-
-Point d'attention :
-
-les frais ne doivent pas devenir un obstacle à l'exercice du droit.
-4.3 Vérification d'identité
+### 4.3 Vérification d'identité
 
 Règle :
+- ne pas demander systématiquement une pièce d'identité ;
+- ne demander des éléments complémentaires qu'en cas de doute raisonnable.
 
-ne pas demander systématiquement une pièce d'identité ;
-ne demander un justificatif qu'en cas de doute raisonnable.
+Exemples où l'identité peut être considérée comme suffisamment établie :
+- demande envoyée depuis l'adresse e-mail habituellement utilisée avec l'organisme ;
+- demande faite depuis un espace authentifié ;
+- identité cohérente avec les informations déjà détenues.
 
-Exemples de situations où l'identité peut être considérée comme suffisamment justifiée :
+Exemples où un doute raisonnable peut exister :
+- adresse e-mail inconnue ;
+- incohérences d'identité ;
+- risque d'usurpation ;
+- demande portant sur des données sensibles ou très volumineuses.
 
-demande émise depuis l'adresse e-mail déjà utilisée avec l'organisme ;
-demande déposée depuis un espace authentifié ;
-identité cohérente avec les informations déjà détenues.
+Si un justificatif est demandé :
+- il doit être pertinent et proportionné ;
+- il doit être transmis de manière sécurisée ;
+- il ne doit pas être conservé au-delà du temps nécessaire à la vérification.
 
-Exemples de situations où un doute raisonnable peut exister :
-
-adresse inconnue ;
-incohérences d'identité ;
-risque d'usurpation ;
-demande portant sur des données sensibles ou volumineuses.
-
-Précaution :
-
-tout justificatif demandé doit être pertinent et proportionné.
-4.4 Protection des tiers
-
-Règle :
-
-le droit d'accès ne doit pas porter atteinte aux droits et libertés d'autrui.
-
-Conséquence :
-
-avant communication, vérifier si les documents contiennent des données de tiers ;
-masquer ou exclure les éléments non communicables.
-
-Exemple :
-
-ne pas transmettre telle quelle une feuille d'émargement collective contenant les noms ou signatures d'autres stagiaires. Cette conséquence découle de la limite posée par le RGPD sur les droits des tiers ; l'exemple est une application opérationnelle prudente pour un OF.
-4.5 Effacement et limites légales
+### 4.4 Protection des tiers
 
 Règle :
+- l'exercice du droit d'accès ne doit pas porter atteinte aux droits et libertés d'autrui.
 
-le droit à l'effacement n'est pas absolu.
+Conséquence opérationnelle :
+- relire les documents avant communication ;
+- masquer les noms, signatures ou éléments identifiants de tiers si nécessaire ;
+- exclure les éléments non communicables pour un motif légal.
 
-L'effacement peut être refusé, totalement ou partiellement, si le traitement reste nécessaire :
-
-au respect d'une obligation légale ;
-à la constatation, à l'exercice ou à la défense de droits en justice.
-
-Conséquence pour un OF :
-
-ne pas supprimer automatiquement les pièces ayant une utilité probatoire, comptable, réglementaire ou contentieuse ;
-distinguer ce qui peut être supprimé de ce qui doit être conservé.
-4.6 Archivage intermédiaire
+### 4.5 Pas d'effacement total automatique
 
 Règle :
+- le droit à l'effacement n'est pas absolu ;
+- certaines données peuvent devoir être conservées pour respecter une obligation légale ou pour la constatation, l'exercice ou la défense de droits en justice.
 
-si certaines données ne doivent plus rester en base active mais doivent encore être conservées, elles peuvent être placées en archivage intermédiaire.
+Conséquence opérationnelle :
+- distinguer ce qui peut être supprimé de ce qui doit être conservé ;
+- ne jamais promettre un effacement total sans analyse document par document.
+
+### 4.6 Archivage intermédiaire
+
+Règle :
+- si des données n'ont plus vocation à rester en base active mais doivent encore être conservées, elles peuvent être placées en archivage intermédiaire.
 
 Conditions :
+- séparation avec les bases d'usage courant ;
+- accès restreint ;
+- finalité de conservation identifiée ;
+- durée encadrée ;
+- traçabilité de la décision.
 
-séparation avec la base active ;
-accès limité aux seules personnes habilitées ;
-conservation justifiée par un objectif identifié ;
-tri préalable.
+## 5. Règles de décision
 
-Point d'attention :
+### Règle 1 - Identifier le droit exercé
 
-on n'archive pas "au cas où".
-4.7 Conservation des pièces comptables
+La skill doit déterminer si la demande concerne :
+- un droit d'accès ;
+- un droit de rectification ;
+- un droit à l'effacement ;
+- un droit d'opposition ;
+- un droit à la limitation ;
+- ou plusieurs droits à la fois.
 
-Règle :
+### Règle 2 - Vérifier si la demande doit être précisée
 
-les documents comptables et pièces justificatives sont conservés 10 ans.
+Si la demande est trop large ou ambiguë, la skill doit recommander une demande de précision.
 
-Point d'attention :
+Exemples :
+- "Souhaitez-vous uniquement votre dossier pédagogique ou également les données de connexion et d'espace en ligne ?"
+- "Votre demande porte-t-elle sur les données administratives, pédagogiques, comptables, commerciales, ou sur l'ensemble du dossier ?"
 
-ce délai n'autorise pas à conserver tout le reste sans justification ;
-il faut raisonner document par document.
-5. Cas particulier des données de santé
+La skill ne doit pas utiliser l'imprécision comme prétexte pour bloquer le traitement.
 
-La skill ne doit pas transformer le délai spécifique du dossier médical en règle générale applicable à tout OF.
+### Règle 3 - Vérifier l'identité seulement si nécessaire
 
-Règle prudente :
+La skill doit partir du principe que l'identité est suffisamment établie, sauf en présence d'un doute raisonnable.
 
-pour une demande classique d'exercice de droits, conserver comme base de raisonnement le délai RGPD d'1 mois ;
-si la demande vise un véritable dossier médical ou relève du régime spécifique de l'article L.1111-7 du code de la santé publique, signaler qu'une vérification juridique complémentaire est nécessaire.
+### Règle 4 - Qualifier les catégories de données
 
-Pourquoi :
+La skill doit, si possible, distinguer :
+- données administratives ;
+- données pédagogiques ;
+- feuilles d'émargement ;
+- attestations et certificats ;
+- données CRM ou prospection ;
+- données comptables et de facturation ;
+- données LMS ou portail ;
+- données sensibles ;
+- documents contenant des données de tiers.
 
-les sources CNIL distinguent bien le régime général RGPD et le régime particulier d'accès au dossier médical.
-6. Workflow imposé à la skill
-Étape 1 - Identifier la demande
+### Règle 5 - Tester les limites légales
 
-La skill doit déterminer :
+Avant de recommander une communication, une rectification ou un effacement, la skill doit vérifier si :
+- des droits de tiers sont en jeu ;
+- une obligation légale de conservation s'applique ;
+- une contrainte liée à un financeur ou à un contrôle existe ;
+- un risque contentieux est présent ;
+- la demande est manifestement infondée ou excessive.
 
-qui formule la demande ;
-sur quel canal ;
-à quelle date ;
-quel droit est exercé ;
-si la demande porte sur tout le dossier ou sur une partie seulement.
-Étape 2 - Vérifier si l'identité est suffisamment établie
+### Règle 6 - Déterminer l'issue
 
-La skill doit :
+Issues possibles :
+- acceptation totale ;
+- acceptation partielle ;
+- refus motivé ;
+- demande de précision ;
+- demande de justificatif d'identité ;
+- escalade vers validation humaine.
 
-présumer l'identité suffisante si le contexte le permet ;
-ne recommander une demande de justificatif qu'en cas de doute raisonnable ;
-rappeler que la demande de justificatif doit rester proportionnée.
-Étape 3 - Qualifier les données concernées
+## 6. Règles spécifiques aux organismes de formation
 
-La skill doit identifier, si possible :
+### 6.1 Droit d'accès
 
-données administratives ;
-données pédagogiques ;
-données comptables ;
-données de connexion ;
-données issues d'outils CRM ;
-données relatives au handicap ou à la santé ;
-documents contenant des données de tiers.
-Étape 4 - Tester les limites légales
+Si la personne demande l'accès à ses données :
+- vérifier l'identité de manière proportionnée ;
+- recenser les données communicables ;
+- exclure ou masquer les données de tiers ;
+- transmettre les données par un canal approprié ;
+- compléter la réponse avec les informations prévues par l'article 15 du RGPD.
 
-La skill doit vérifier si la demande se heurte à :
+### 6.2 Droit à l'effacement
 
-une obligation légale de conservation ;
-une nécessité probatoire ;
-un risque d'atteinte aux droits de tiers ;
-un contentieux en cours ou prévisible ;
-une demande manifestement infondée ou excessive.
-Étape 5 - Déterminer l'issue
+Si la personne demande l'effacement :
+- identifier les données réellement supprimables ;
+- supprimer les données non nécessaires lorsqu'aucune conservation n'est requise ;
+- retirer la personne des outils de prospection si applicable ;
+- conserver les données devant l'être pour des motifs légaux, comptables, probatoires, qualité, financeurs ou contentieux ;
+- placer en archivage intermédiaire les données qui n'ont plus à rester en base active ;
+- expliquer tout refus partiel.
 
-La skill doit choisir entre :
+### 6.3 Droit de rectification
 
-acceptation totale ;
-acceptation partielle ;
-refus motivé ;
-demande de précision complémentaire ;
-demande de justificatif d'identité ;
-escalade vers validation humaine.
-Étape 6 - Produire une réponse structurée
+Si la personne demande une rectification :
+- identifier les données contestées ;
+- vérifier les justificatifs utiles si nécessaire ;
+- corriger les données inexactes ou incomplètes ;
+- tracer la correction effectuée.
 
-La réponse proposée doit contenir :
+### 6.4 Droit d'opposition
 
-rappel de la demande ;
-position retenue ;
-justification ;
-actions réalisées ou à réaliser ;
-durée ou logique de conservation si utile ;
-rappel du droit de saisir la CNIL.
-7. Matrice de décision simplifiée
-7.1 Si la personne demande l'accès à ses données
+Si la personne s'oppose à un traitement :
+- identifier la base légale du traitement ;
+- en cas de prospection, arrêter le traitement sauf exception applicable ;
+- dans les autres cas, vérifier si des motifs légitimes impérieux justifient la poursuite du traitement.
 
-Alors :
+### 6.5 Droit à la limitation
 
-vérifier l'identité ;
-recenser les données communicables ;
-exclure ou masquer les données de tiers ;
-transmettre la copie ;
-compléter avec les informations prévues à l'article 15.
-7.2 Si la personne demande l'effacement total
+Si la personne demande la limitation :
+- vérifier si les conditions légales sont remplies ;
+- suspendre, si nécessaire, certains usages actifs tout en conservant les données.
 
-Alors :
+## 7. Logique de conservation et d'effacement
 
-ne pas supposer que tout est effaçable ;
-distinguer les données supprimables des données devant être conservées ;
-supprimer les données non nécessaires ;
-désactiver la prospection si applicable ;
-basculer en archivage intermédiaire les données à conserver ;
-expliquer le refus partiel si nécessaire.
-7.3 Si la demande est trop large ou floue
+La skill doit appliquer la méthode suivante :
+- ne pas raisonner globalement par "dossier complet" ;
+- raisonner document par document ;
+- distinguer la base active de l'archivage intermédiaire ;
+- rattacher chaque conservation à une finalité ou à une obligation identifiée.
 
-Alors :
+Exemples de documents souvent non immédiatement effaçables dans un organisme de formation :
+- feuilles d'émargement ;
+- conventions ou contrats ;
+- certificats et attestations ;
+- factures et pièces comptables ;
+- justificatifs liés au financement ;
+- éléments nécessaires pour répondre à un audit, un contrôle ou un litige.
 
-demander une précision ciblée ;
-ne pas utiliser cette imprécision comme prétexte pour bloquer la demande ;
-recalculer ou suspendre le traitement selon le cadre applicable et la manière dont l'organisme gère les compléments. La CNIL indique que lorsque la demande est incomplète, des compléments peuvent être demandés et le délai court à nouveau une fois les éléments fournis.
-7.4 Si la demande est répétitive ou abusive
+La skill ne doit pas annoncer une durée fixe tant que la catégorie de document et la base de conservation ne sont pas clairement identifiées.
 
-Alors :
+## 8. Signaux de vigilance
 
-documenter précisément les raisons ;
-envisager un refus motivé ou des frais raisonnables ;
-rappeler la possibilité de saisir la CNIL.
-8. Sorties attendues de la skill
+La skill doit redoubler de prudence si la demande concerne :
+- des données de santé ;
+- des justificatifs liés au handicap ;
+- des certificats médicaux ;
+- un contentieux en cours ou probable ;
+- des règles de conservation liées à un financeur incertaines ;
+- un volume important de documents hétérogènes ;
+- de nombreuses données de tiers ;
+- une anonymisation dont le caractère irréversible n'est pas certain.
 
-La skill doit pouvoir produire, selon le besoin :
+La skill ne doit pas traiter toutes les données relatives au handicap comme de simples données administratives ordinaires.
 
-une qualification de la demande ;
-une analyse du droit applicable ;
-une check-list de traitement ;
-un projet de réponse au demandeur ;
-une alerte sur les risques ;
-une recommandation d'archivage intermédiaire ;
-une recommandation de validation humaine.
-9. Interdictions de la skill
+## 9. Contrat de sortie de la skill
+
+Pour chaque demande analysée, la skill devrait produire les champs suivants :
+
+- Demande identifiée :
+- Droit ou droits concernés :
+- Identité suffisamment établie : oui / non / incertain
+- Précision complémentaire nécessaire : oui / non
+- Catégories de données potentiellement concernées :
+- Risque lié aux données de tiers : faible / moyen / élevé
+- Obstacle de conservation : oui / non / incertain
+- Données pouvant être communiquées :
+- Données pouvant être rectifiées :
+- Données pouvant être effacées :
+- Données devant être conservées :
+- Issue recommandée :
+- Projet de réponse :
+- Validation humaine requise : oui / non
+- Motivation :
+
+## 10. Hypothèses interdites
 
 La skill ne doit pas :
+- supposer qu'une pièce d'identité est toujours obligatoire ;
+- supposer qu'un droit à l'effacement implique forcément la suppression de tout le dossier ;
+- supposer qu'une seule durée couvre tous les documents ;
+- confondre anonymisation et pseudonymisation ;
+- communiquer des données de tiers sans relecture ;
+- appliquer le délai du dossier médical comme s'il s'agissait du délai général RGPD ;
+- ignorer les contraintes comptables, qualité, financeurs, contrôle ou contentieux.
 
-affirmer qu'une pièce d'identité est toujours obligatoire ;
-promettre un effacement total sans analyse ;
-annoncer une durée uniforme pour tous les documents ;
-confondre anonymisation et pseudonymisation ;
-traiter toute donnée liée au handicap comme un simple document administratif sans vigilance ;
-présenter le délai "8 jours" comme règle générale pour toute demande RGPD en OF.
-10. Signaux d'escalade vers validation humaine
+## 11. Escalade vers validation humaine
 
-La skill doit recommander une validation humaine si :
+La skill doit recommander une validation humaine si l'un des éléments suivants est présent :
+- identité incertaine avec risque élevé de divulgation ;
+- qualification juridique incertaine des documents ;
+- règles de conservation contradictoires ou incertaines ;
+- présence de données sensibles ou de santé ;
+- refus susceptible d'être contesté ;
+- demande mêlant plusieurs droits et plusieurs régimes juridiques ;
+- risque de plainte CNIL ou de précontentieux.
 
-la demande porte sur des données de santé ;
-un contentieux est en cours ou probable ;
-des obligations de conservation spécifiques financeur sont en jeu ;
-le dossier contient des données de tiers nombreuses ou sensibles ;
-la qualification juridique du document n'est pas claire ;
-la demande vise des effacements massifs dans un logiciel métier ou un LMS ;
-la situation combine RGPD, droit de la santé, droit social ou exigences financeurs.
-11. Modèle de sortie - Analyse attendue
-Format recommandé
-Demande identifiée :
-Droit(s) concerné(s) :
-Identité suffisamment établie : oui / non / à vérifier
-Données potentiellement concernées :
-Obstacles ou limites juridiques :
-Données pouvant être communiquées / rectifiées / supprimées :
-Données devant être conservées :
-Niveau de risque :
-Réponse recommandée :
-Validation humaine conseillée : oui / non
-12. Modèle de réponse - Droit d'accès
+## 12. Modèle de réponse - Droit d'accès
 
 Objet : Votre demande d'accès à vos données personnelles
 
@@ -308,27 +308,27 @@ Bonjour [Nom],
 
 Nous accusons réception de votre demande du [date] relative à l'exercice de votre droit d'accès.
 
-Après vérification, nous vous confirmons que notre organisme traite des données vous concernant dans le cadre de [à compléter].
+Après examen, nous vous confirmons que notre organisme traite des données vous concernant dans le cadre de [à compléter].
 
-Vous trouverez ci-joint, par un canal sécurisé, une copie des données personnelles communicables vous concernant.
+Vous trouverez ci-joint, ou recevrez par un canal sécurisé, une copie des données personnelles communicables vous concernant.
 
-Conformément au RGPD, nous vous informons notamment des éléments suivants :
+Les principales informations relatives à ce traitement sont les suivantes :
+- finalités : [à compléter]
+- catégories de données : [à compléter]
+- destinataires ou catégories de destinataires : [à compléter]
+- durée de conservation ou critères utilisés : [à compléter]
 
-finalités du traitement : [à compléter]
-catégories de données : [à compléter]
-destinataires ou catégories de destinataires : [à compléter]
-durée de conservation ou critères utilisés : [à compléter]
-
-Lorsque cela était nécessaire, certaines informations ont été masquées ou exclues afin de préserver les droits de tiers ou de respecter une restriction légalement justifiée.
+Lorsque cela était nécessaire, certaines informations ont été masquées ou exclues afin de protéger les droits de tiers ou de respecter une restriction légalement justifiée.
 
 Si vous estimez, après nous avoir contactés, que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL.
 
 Cordialement,
-[Nom]
-[Fonction]
+
+[Nom]  
+[Fonction]  
 [Coordonnées]
 
-13. Modèle de réponse - Effacement avec refus partiel
+## 13. Modèle de réponse - Effacement avec refus partiel
 
 Objet : Votre demande d'effacement de données personnelles
 
@@ -336,37 +336,46 @@ Bonjour [Nom],
 
 Nous accusons réception de votre demande du [date] relative à l'effacement de vos données personnelles.
 
-Après analyse, nous avons supprimé ou désactivé les données qui n'avaient plus à être conservées, notamment :
-
-[à compléter]
+Après examen, nous avons supprimé ou désactivé les données qui n'avaient plus à être conservées, notamment :
+- [à compléter]
 
 En revanche, nous ne pouvons pas procéder à l'effacement complet de l'ensemble de votre dossier.
 
 En application de l'article 17.3 du RGPD, certaines données doivent être conservées lorsque leur traitement reste nécessaire au respect d'une obligation légale ou à la constatation, à l'exercice ou à la défense de droits en justice.
 
-Les éléments concernés sont conservés en archivage intermédiaire avec accès restreint pour la durée strictement nécessaire à cet objectif.
+Les éléments concernés sont conservés avec accès restreint et, si nécessaire, en archivage intermédiaire, pour la durée strictement nécessaire à cet objectif.
 
 Si vous estimez que notre réponse n'est pas satisfaisante, vous pouvez introduire une réclamation auprès de la CNIL.
 
 Cordialement,
-[Nom]
-[Fonction]
+
+[Nom]  
+[Fonction]  
 [Coordonnées]
 
-14. Check-list minimale
+## 14. Check-list interne
 
-Avant clôture, vérifier que :
+Avant de clôturer la demande, vérifier que :
+- la demande a été enregistrée ;
+- la date de réception est tracée ;
+- le délai de réponse a été calculé ;
+- l'identité a été vérifiée de manière proportionnée ;
+- le droit exercé a été correctement qualifié ;
+- une demande de précision a été faite si nécessaire ;
+- les données de tiers ont été relues ;
+- les contraintes de conservation ont été analysées ;
+- l'issue retenue est justifiée ;
+- la possibilité de saisir la CNIL est mentionnée ;
+- le traitement de la demande est documenté.
 
-la demande a été enregistrée ;
-la date de réception est tracée ;
-le délai maximal a été calculé ;
-l'identité a été vérifiée de façon proportionnée ;
-la demande a été correctement qualifiée ;
-les tiers ont été protégés ;
-les obligations de conservation ont été analysées ;
-la réponse est motivée ;
-la possibilité de saisir la CNIL est rappelée ;
-la clôture est documentée.
+## 15. Usage recommandé dans la skill
 
-Réponse claire :
-Cette version est plus proche d'un vrai fichier de référence pour skill : elle donne une doctrine, un workflow, une matrice de décision, des interdictions et des sorties attendues.
+Utiliser cette référence pour :
+- analyser une demande entrante ;
+- produire une analyse interne prudente ;
+- préparer un projet de réponse ;
+- expliquer pourquoi un effacement peut être partiel ;
+- contribuer à une procédure interne ;
+- former une équipe administrative.
+
+En cas d'incertitude, la skill doit privilégier une sortie prudente et recommander une validation humaine.
