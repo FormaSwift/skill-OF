@@ -10,7 +10,7 @@ structure les preuves Qualiopi et aide à monter les dossiers Agefiph.
 
 - Analyser une situation individuelle et proposer des adaptations par type de handicap
 - Rédiger des fiches formateur claires, sans jargon médical
-- Préparer les preuves Qualiopi (indicateurs 4, 20, 26)
+- Préparer les preuves Qualiopi (indicateurs 4, 10, 26, et 20 pour les CFA)
 - Monter un dossier Agefiph pour l'aide à l'adaptation
 - Produire des bilans de compensation
 - Concevoir des actions SEEPH
@@ -25,7 +25,7 @@ handi-adapt/
 ├── SKILL.md                          Logique centrale, méthode, formats de sortie
 └── references/
     ├── adaptations-catalog.md        Adaptations par type de situation (6 catégories)
-    ├── qualiopi-evidence.md          Guide des preuves Qualiopi (indicateurs 4, 20, 26)
+    ├── qualiopi-evidence.md          Guide des preuves Qualiopi (indicateurs 4, 10, 26, et 20 pour les CFA)
     ├── agefiph-aide.md               Processus dossier aide à l'adaptation Agefiph
     ├── consignes-output.md           ⭐ CHARTE GRAPHIQUE — À personnaliser
     └── mesformations.md              ⭐ VOS FORMATIONS — À renseigner
@@ -109,7 +109,7 @@ Plus ce fichier est renseigné, plus les propositions de la skill seront précis
 La skill se déclenche automatiquement quand vous mentionnez :
 - Un apprenant en situation de handicap
 - Une adaptation pédagogique ou organisationnelle
-- Les indicateurs Qualiopi liés au handicap (4, 20, 26)
+- Les indicateurs Qualiopi liés au handicap (4, 10, 26, et 20 pour les CFA)
 - Un dossier Agefiph ou une aide à l'adaptation
 - Une action SEEPH
 - Une fiche pour un formateur
@@ -157,7 +157,7 @@ https://www.agefiph.fr/acteur-de-la-formation
 
 ## Références utilisées
 
-- Référentiel National Qualité (RNQ) Qualiopi V9 — DGEFP
+- Référentiel National Qualité (RNQ) Qualiopi V10 — DGEFP
 - Loi du 11 février 2005 pour l'égalité des droits et des chances
 - Fiche Agefiph "Aide à l'adaptation des situations de formation" — Janvier 2025
 - Ressources Handicap Formation (RHF) — Agefiph / Innov'hand

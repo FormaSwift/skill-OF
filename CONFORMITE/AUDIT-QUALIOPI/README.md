@@ -267,3 +267,7 @@ Cette skill est utile pour :
 - la consolidation des preuves
 - la mise en coherence entre pratique, processus et documents
 - la priorisation des actions correctives
+
+## Mise à jour V10 (1er novembre 2026)
+
+Le dossier contient `rnq-v10-et-arrete-audit.md` : synthèse du décret n° 2026-728 (33 indicateurs) et de l'arrêté du 28 octobre 2026 (modalités d'audit), avec liens Légifrance et période transitoire jusqu'au 31 décembre 2026.

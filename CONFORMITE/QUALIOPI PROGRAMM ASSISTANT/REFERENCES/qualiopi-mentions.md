@@ -1,6 +1,6 @@
 # Référence : Mentions obligatoires Qualiopi — Critères d'audit détaillés
 
-Source : Article L. 6353-1 du Code du travail, Décret n° 2019-565 du 6 juin 2019, RNQ V9
+Source : Article L. 6353-1 du Code du travail, Décret n° 2019-565 du 6 juin 2019, RNQ V10 (décret n° 2026-728 du 1er août 2026)
 
 ---
 
@@ -24,7 +24,7 @@ Les compétences, connaissances ou expériences nécessaires ou indispensables p
 - "Avoir des notions en informatique" → 🟡 (trop vague)
 - "Aucun prérequis" pour une formation certifiante avancée → 🟡 (incohérent)
 
-**Indicateur RNQ associé :** Indicateur 1 (objectifs) et Indicateur 3 (positionnement)
+**Indicateur RNQ associé :** Indicateur 1 (information du public), Indicateur 5 (objectifs) et Indicateur 8 (positionnement à l'entrée)
 
 ---
 
@@ -40,7 +40,7 @@ Les aptitudes et connaissances acquises par les apprenants au cours de la format
 - ✅ Cohérents avec le contenu et la durée
 - ✅ Réalistes pour le public cible
 
-**Indicateur RNQ associé :** Indicateur 1
+**Indicateur RNQ associé :** Indicateur 1 (information du public)
 
 ---
 
@@ -75,7 +75,7 @@ Comment s'inscrire à la formation et sous quels délais ?
 - ✅ Prochaines dates si formation inter
 - ✅ Modalité de la formation : présentiel, distanciel, blended, FOAD
 
-**Indicateur RNQ associé :** Indicateur 1
+**Indicateur RNQ associé :** Indicateur 1 (information du public)
 
 ---
 
@@ -162,7 +162,7 @@ Les conditions d'accueil, d'accès et de sécurisation des parcours aux PSH. Con
 - "Accessible aux personnes handicapées" seul, sans contact → 🟡
 - Aucune mention → 🔴
 
-**Indicateur RNQ associé :** Indicateur 9
+**Indicateur RNQ associé :** Indicateur 1 (accessibilité dans l'information publique) et Indicateur 26 (handicap)
 
 ---
 
@@ -177,4 +177,4 @@ Non explicitement obligatoire dans L. 6353-1, mais fortement recommandé par les
 - 🟡 Absence : pas bloquant mais signalé comme point de vigilance
 - 🔴 Date manifestement obsolète (programme > 3 ans non mis à jour, réglementation dépassée)
 
-**Indicateur RNQ associé :** Indicateur 2
+**Indicateur RNQ associé :** Indicateur 1 (information vérifiable et à jour)

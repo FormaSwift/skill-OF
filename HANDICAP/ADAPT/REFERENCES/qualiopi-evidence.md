@@ -10,11 +10,13 @@
 | Indicateur | Libellé RNQ | Enjeu principal |
 |:---|:---|:---|
 | **Indicateur 4** | Analyse des besoins des bénéficiaires | Prise en compte dès le pré-accueil |
-| **Indicateur 20** | Mobilisation des partenaires et sous-traitants | Réseau externe activé si besoin |
-| **Indicateur 26** | Mise en oeuvre des adaptations | Adaptations réelles et tracées |
+| **Indicateur 10** | Adaptation de la prestation, de l'accompagnement et du suivi aux publics | Adaptations réelles et tracées |
+| **Indicateur 26** | Expertises, outils et réseaux mobilisés pour les publics en situation de handicap | Réseau externe (Agefiph, Cap Emploi, associations) activé si besoin |
 
-> Note : d'autres indicateurs peuvent être concernés selon la situation (indicateur 5 sur les objectifs, 
-> indicateur 9 sur les modalités pédagogiques, indicateur 21 sur le suivi).
+Pour un CFA, l'**indicateur 20** exige en plus un référent handicap, un conseil de perfectionnement et un personnel dédié à la mobilité.
+
+> Note : d'autres indicateurs peuvent être concernés selon la situation (indicateur 1 sur l'information publique et l'accessibilité, indicateur 5 sur les objectifs, 
+> indicateur 6 sur les modalités de mise en oeuvre).
 
 ---
 
@@ -47,7 +49,7 @@
 
 ---
 
-## Indicateur 20 — Mobilisation des partenaires
+## Indicateur 26 : mobilisation des partenaires et du réseau
 
 ### Ce qui doit exister
 - Liste des partenaires externes mobilisables (Agefiph, RHF, Cap Emploi, associations spécialisées)
@@ -76,7 +78,7 @@
 
 ---
 
-## Indicateur 26 — Mise en oeuvre des adaptations
+## Indicateur 10 : mise en oeuvre des adaptations
 
 ### Ce qui doit exister
 - Plan d'adaptation individuel (PAI) ou équivalent (peut être nommé autrement)
