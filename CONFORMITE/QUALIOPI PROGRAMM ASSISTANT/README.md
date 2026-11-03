@@ -6,7 +6,7 @@ Cette skill est conçue pour analyser un programme de formation précis, détect
 
 ## Finalité
 
-Cette skill aide à vérifier si un programme de formation est suffisamment solide sur le plan :
+Cette skill aide à examiner un programme de formation sur le plan (appréciation de travail, sans décision de conformité) :
 
 - réglementaire
 - documentaire
@@ -18,12 +18,12 @@ Elle ne se limite pas à contrôler la présence de mentions. Elle évalue aussi
 
 ## Quand utiliser cette skill
 
-À utiliser systématiquement dès que l'utilisateur :
+À utiliser quand l'utilisateur demande une analyse de programme :
 
 - dépose un programme de formation au format PDF, Word ou texte
-- demande si son programme est conforme Qualiopi
+- demande si son programme est cohérent avec les attendus Qualiopi
 - demande ce qu'il manque dans un programme
-- souhaite vérifier les mentions obligatoires
+- souhaite vérifier les informations attendues sur la prestation (une information peut figurer sur un autre support public)
 - veut retravailler les objectifs pédagogiques
 - demande un audit de programme avant contrôle ou audit
 - compare un programme avec une page web ou un autre support
@@ -58,9 +58,10 @@ Vérification de la présence et de la qualité des éléments suivants :
 
 Chaque élément est évalué avec un système simple :
 
-- 🟢 Conforme
+- 🟢 Présent et complet sur ce document
 - 🟡 Partiel
-- 🔴 Manquant
+- 🔴 Absent du programme (n'établit pas à lui seul un manquement)
+- ⚪ À vérifier (autre support ou pièce non fournie)
 
 ### 2. Audit des objectifs pédagogiques
 
@@ -231,9 +232,9 @@ Elle n'a pas vocation à auditer à elle seule l'ensemble du système qualité d
 Le rapport attendu doit contenir :
 
 ### 1. Synthèse express
-Score global, points forts, priorités urgentes.
+Points forts, limites de l'examen, priorités à instruire. Pas de score global.
 
-### 2. Grille de conformité Qualiopi
+### 2. Grille d'examen du programme
 Tableau indiquant pour chaque élément :
 
 - le statut
