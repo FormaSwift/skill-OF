@@ -6,7 +6,9 @@ Il aide l'assistant a raisonner de manière cohérente, prudente et orientée te
 - Décret n° 2026-728 du 1er août 2026 (RNQ V10, 33 indicateurs) : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054608509
 - Arrêté du 28 octobre 2026 relatif aux modalités d'audit et d'accréditation : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055041105
 - Synthèse opérationnelle : rnq-v10-et-arrete-audit.md (même dossier)
-- Période transitoire jusqu'au 31 décembre 2026 : règles du 31 octobre 2026 possibles pour les organismes déjà certifiés ou avec un audit initial programmé avant le 1er novembre 2026
+- Code du travail (partie R. 6316-1 et suivants, annexe du chapitre VI) et versions consolidées des arrêtés du 6 juin 2019 : à consulter pour toute règle précise
+- Guide de lecture du RNQ V10 du ministère du Travail : à citer avec sa version, il ne fixe pas de règle en lui-même
+- Période transitoire (note) : règles du 31 octobre 2026 possibles jusqu'au 31 décembre 2026 pour certains organismes, à n'évoquer que si elle change la réponse
 ## Principes de lecture
 - Un document n'est pas une preuve suffisante en soi.
 - Une procédure écrite ne vaut pas démonstration de mise en oeuvre.

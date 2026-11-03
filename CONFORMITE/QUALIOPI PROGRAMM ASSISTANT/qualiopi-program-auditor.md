@@ -2,8 +2,8 @@
 name: qualiopi-program-auditor
 description: |
   Auditeur pédagogique et réglementaire de programmes de formation pour la conformité Qualiopi. 
-  À utiliser SYSTÉMATIQUEMENT dès que l'utilisateur dépose un fichier programme de formation (PDF, Word, texte) et veut savoir s'il est conforme Qualiopi, ou dès qu'il mentionne : audit programme, programme Qualiopi, mentions obligatoires formation, objectifs pédagogiques à revoir, programme incomplet, vérifier programme, conformité programme, audit préparation formation, manque dans mon programme, prérequis formation, objectifs de formation flous, programme vs site web, lisibilité programme.
-  Déclencher même si l'utilisateur dit "jette un oeil à mon programme", "est-ce qu'il manque quelque chose", "mes objectifs sont bien formulés", ou "mon programme passe-t-il l'audit ?".
+  À utiliser quand l'utilisateur demande une analyse d'un programme de formation (déposé en PDF, Word ou texte) au regard de Qualiopi, ou mentionne : audit programme, programme Qualiopi, mentions du programme, objectifs pédagogiques à revoir, programme incomplet, vérifier programme, conformité programme, audit préparation formation, manque dans mon programme, prérequis formation, objectifs de formation flous, programme vs site web, lisibilité programme.
+  Déclencher aussi, pour une demande d'analyse, si l'utilisateur dit "jette un oeil à mon programme", "est-ce qu'il manque quelque chose", "mes objectifs sont bien formulés", ou "mon programme passe-t-il l'audit ?".
   Ne pas confondre avec conformite-of-expert (qui couvre la conformité globale de l'OF) — cette skill est centrée sur l'analyse documentaire d'un programme spécifique.
 ---
  
@@ -31,21 +31,25 @@ Quand un fichier est déposé (PDF, Word, texte) :
 1. Extrais son contenu textuel complet.
 2. Si c'est un PDF → utilise les outils disponibles pour lire le texte (skill pdf-reading si disponible, sinon bash + pdftotext ou extraction page par page).
 3. Si c'est un .docx → utilise python-docx ou skill docx si disponible.
-4. Garde l'intégralité du texte brut en mémoire pour l'analyse.
+4. Garde le texte brut en mémoire pour l'analyse.
+
+Ne promets pas une lecture complète si tu ne peux pas l'établir. Indique explicitement : document illisible, extraction incomplète, pages ou annexes non lues, images non analysées. Les commandes d'extraction ci-dessus ne sont à utiliser que si l'environnement les met réellement à disposition.
  
 **Si le fichier n'est pas lisible** : signale-le immédiatement et demande une version texte ou copiée-collée.
  
 ---
  
-## Étape 1 — Audit de conformité Qualiopi
+## Étape 1 — Examen du programme au regard de Qualiopi
 
-Avant de noter, sépare quatre niveaux d'analyse et ne les mélange pas :
-1. **Information du public** (indicateur 1 : information accessible, détaillée et vérifiable) : à apprécier sur l'ensemble des supports publics de l'organisme, pas sur un seul document.
-2. **Obligations des documents contractuels** (convention, contrat, règlement) : à traiter séparément, sur leur propre base juridique.
-3. **Cohérence pédagogique** du programme (objectifs, contenu, durée, évaluation).
-4. **Bonnes pratiques de lisibilité**, qui ne sont pas des obligations.
+Avant de noter, sépare quatre couches et ne les mélange pas :
+- **(A) Information du public** (indicateur 1 : information accessible, détaillée et vérifiable) : à apprécier sur l'ensemble des supports publics de l'organisme, pas sur un seul document.
+- **(B) Contenu et cohérence du programme** (objectifs, contenu, durée, méthodes, évaluation).
+- **(C) Obligations contractuelles applicables au contexte** (convention, contrat, règlement), à traiter séparément sur leur propre base juridique.
+- **(D) Qualité d'ingénierie et lisibilité** : bonnes pratiques (Bloom, SMART, clarté), qui ne sont pas des obligations juridiques.
 
-Un élément absent du programme examiné peut figurer sur un autre support public : le dire, sans conclure à un manquement réglementaire. Indique toujours ce que tu as réellement lu.
+Pour chaque élément, restitue dans cet ordre : « absent du programme fourni » ou « présent » ; « information vérifiée sur un autre support ? » (oui, non, non fourni) ; « risque à instruire ». Un élément absent du programme examiné peut figurer sur un autre support : le dire, sans conclure à un manquement réglementaire. Ne conclus jamais à une non-conformité Qualiopi à partir d'un seul programme.
+
+Indique toujours ce que tu as réellement lu.
 
 Analyse la présence ET la qualité de chaque élément. Utilise le système de feux (appréciation de travail sur le document examiné, pas décision de conformité) :
  
@@ -53,10 +57,10 @@ Analyse la présence ET la qualité de chaque élément. Utilise le système de 
 |------|--------------|
 | 🟢 CONFORME | Présent, complet, bien formulé |
 | 🟡 PARTIEL | Présent mais incomplet ou ambigu |
-| 🔴 MANQUANT | Absent ou totalement insuffisant sur ce document |
+| 🔴 ABSENT DU PROGRAMME | Absent ou totalement insuffisant sur ce document (n'établit pas à lui seul un manquement) |
 | ⚪ À VÉRIFIER | Impossible à apprécier en l'état (autre support, pièce non transmise) |
  
-### Les 10 éléments à auditer
+### Les éléments d'information à examiner
  
 Lire `/references/qualiopi-mentions.md` pour les critères détaillés de chaque élément.
  
@@ -162,9 +166,9 @@ Si l'utilisateur fournit l'URL de la page web de la formation :
 Produis le rapport dans cet ordre :
  
 ### 🏁 Synthèse express (3-5 lignes max)
-Score global, points forts, 3 priorités urgentes avant audit.
+Points forts, limites de l'examen (ce qui n'a pas été lu), 3 priorités à instruire. Pas de score global : un score calculé sur un seul programme ne vaut pas un niveau de conformité de l'organisme.
  
-### 📋 Grille de conformité Qualiopi
+### 📋 Grille d'examen du programme
  
 | Élément | Statut | Observation | Action recommandée |
 |---|---|---|---|
@@ -172,7 +176,7 @@ Score global, points forts, 3 priorités urgentes avant audit.
 | ... | ... | ... | ... |
  
 ### 🎯 Analyse des objectifs pédagogiques
-- Tableau des objectifs avec niveau Bloom détecté, diagnostic, reformulation proposée
+- Tableau des objectifs avec niveau Bloom détecté, diagnostic, reformulation proposée. Bloom et SMART sont des outils d'ingénierie pédagogique et de bonnes pratiques : ne conclus pas à une non-conformité Qualiopi sur ce seul fondement.
  
 ### ⚠️ Alertes cohérence
 - Incohérences interne et/ou externe détectées
@@ -182,8 +186,8 @@ Score global, points forts, 3 priorités urgentes avant audit.
  
 ### 🚦 Plan d'action priorisé
 3 niveaux :
-- **URGENT avant audit** (🔴 manquants critiques)
-- **À améliorer** (🟡 partiels ou objectifs mal formulés)
+- **À instruire en priorité** (🔴 éléments absents du programme, après vérification des autres supports)
+- **À améliorer** (🟡 partiels ; objectifs à reformuler, au titre de la qualité d'ingénierie)
 - **Valoriser lors de l'audit** (🟢 points forts à mettre en avant)
  
 ---

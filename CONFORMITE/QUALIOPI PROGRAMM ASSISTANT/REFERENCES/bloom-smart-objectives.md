@@ -120,7 +120,7 @@ Il est toujours centré sur **l'apprenant**, jamais sur le formateur ou le conte
 
 ### Cas 1 : Objectif vague sur Qualiopi
 ❌ "Connaître les exigences Qualiopi"  
-✅ "Identifier les 9 mentions obligatoires d'un programme de formation selon le référentiel Qualiopi et vérifier leur présence dans un document réel à partir d'une grille d'audit."
+✅ "Identifier les informations attendues sur une prestation de formation selon l'indicateur 1 du référentiel Qualiopi et vérifier leur présence dans un document réel à partir d'une grille d'examen."
 
 ### Cas 2 : Objectif = contenu de cours
 ❌ "La gestion du temps et des priorités"  

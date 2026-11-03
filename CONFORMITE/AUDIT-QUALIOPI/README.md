@@ -198,7 +198,7 @@ Sinon, l'assistant parle de point de vigilance ou de fragilite, sans surqualifie
 
 ## Format de sortie attendu
 
-Pour chaque demande, la reponse doit suivre cette structure :
+Mode bref par defaut (question ponctuelle) : conclusion, pieces examinees et limites, points a verifier, risque et action prioritaire. Mode investigation complete (analyse detaillee d'un indicateur) : la reponse suit cette structure :
 
 1. Indicateur analyse
 2. Lecture simple de l'indicateur

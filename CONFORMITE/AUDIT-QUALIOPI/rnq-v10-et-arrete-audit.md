@@ -6,7 +6,7 @@ Fiche de référence pour les skills et prompts Qualiopi de ce dépôt. Elle rem
 - Décret n° 2026-728 du 1er août 2026 (NOR TRSD2619632D, JORF n°0180 du 4 août 2026) : [Légifrance](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054608509)
 - Arrêté du 28 octobre 2026 relatif aux modalités d'audit et d'accréditation (NOR TRSD2609878A, JORF n°0256 du 1er novembre 2026) : [Légifrance](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055041105)
 
-> Le guide de lecture V10 (DGEFP) et les commentaires des certificateurs complètent ces textes, mais seuls le décret et l'arrêté font foi. En cas de doute, l'assistant renvoie au texte et signale ce qu'il n'a pas pu vérifier.
+> Niveaux à distinguer : les textes normatifs (Code du travail, décret, arrêtés, y compris les versions consolidées), le guide de lecture du ministère du Travail, les commentaires des certificateurs et des consultants, puis les bonnes pratiques et hypothèses. Seuls les textes normatifs fixent des règles. Cette fiche est une synthèse : elle ne remplace pas l'accès au texte officiel. En cas de doute, l'assistant renvoie au texte, dit ce qu'il n'a pas pu vérifier, et ne présente pas un commentaire comme une règle.
 
 ---
 
@@ -16,23 +16,23 @@ Fiche de référence pour les skills et prompts Qualiopi de ce dépôt. Elle rem
 |:---|:---|
 | Entrée en vigueur du décret (RNQ V10) | 1er novembre 2026 |
 | Entrée en vigueur de l'article 1 de l'arrêté (modalités d'audit) | 1er novembre 2026 |
-| Seuil de 5 non-conformités mineures pour l'accréditation (art. 4 de l'arrêté accréditation) | 1er novembre 2026 |
+| Modification de l'article 4 de l'arrêté accréditation (« vingt-cinq » remplacé par « cinq », objet à vérifier dans le texte consolidé) | 1er novembre 2026 |
 | Impartialité, compétences et déontologie des auditeurs (art. 2, 1° et 2°) | 1er janvier 2027 |
 | Période transitoire | jusqu'au 31 décembre 2026 |
 
-**Période transitoire** : les organismes qui avaient programmé un audit initial avant le 1er novembre 2026, ou qui disposent déjà d'une certification ou d'une labellisation (art. R. 6316-2), peuvent, jusqu'au 31 décembre 2026, passer un audit initial, de surveillance ou de renouvellement dans les conditions applicables au 31 octobre 2026. À partir du 1er janvier 2027, tout audit suit la V10.
+**Période transitoire (note, à n'évoquer que si elle change la réponse)** : les organismes qui avaient programmé un audit initial avant le 1er novembre 2026, ou qui disposent déjà d'une certification ou d'une labellisation (art. R. 6316-2), peuvent, jusqu'au 31 décembre 2026, passer un audit initial, de surveillance ou de renouvellement dans les conditions applicables au 31 octobre 2026. À partir du 1er janvier 2027, tout audit suit la V10.
 
-Bon réflexe : toujours demander la **date de l'audit** et le **certificateur** avant de choisir la grille (V9 transitoire ou V10).
+La V10 est le standard de travail. La date de l'audit n'est à demander que si elle conditionne matériellement la réponse (audit programmé avant le 1er janvier 2027 par un organisme déjà certifié).
 
 ---
 
-## 2. Ce qui change dans le référentiel (décret 2026-728)
+## 2. Contenu du référentiel V10 (décret 2026-728)
 
 Le référentiel passe de **32 à 33 indicateurs**, toujours sur **7 critères**.
 
-**Nouvel indicateur 33 (critère 7)**, réservé aux formations par apprentissage (colonne L. 6313-1 4°) : dispositif d'évaluation des contenus et des enseignements par les apprenants, **distinct du recueil général de satisfaction**, dont les résultats sont partagés avec les équipes pédagogiques, donnent lieu à une démarche d'amélioration continue formalisée, dont l'efficacité est mesurée périodiquement.
+**Nouveauté confirmée : indicateur 33 (critère 7)**, réservé aux formations par apprentissage (colonne L. 6313-1 4°) : dispositif d'évaluation des contenus et des enseignements par les apprenants, **distinct du recueil général de satisfaction**, dont les résultats sont partagés avec les équipes pédagogiques, donnent lieu à une démarche d'amélioration continue formalisée, dont l'efficacité est mesurée périodiquement.
 
-**Points de contenu à connaître** (lecture directe du décret) :
+**Points de contenu à connaître** (lecture directe du décret). Attention : la comparaison avec la V9 indicateur par indicateur n'a pas été faite ici. Ne pas présenter ces points comme des changements ou des nouveautés (seul l'indicateur 33 est une création confirmée) sans avoir vérifié le texte de la V9 :
 - **Indicateur 1** : information publique détaillée et vérifiable (prérequis, objectifs, type de reconnaissance, durée, modalités pédagogiques et de financement, délais, tarifs, contacts, méthodes, évaluation, accessibilité handicap). Aucune mention de nature à induire en erreur, notamment sur les droits ou l'absence de droits à poursuite d'études.
 - **Indicateur 3** : en cas de certification professionnelle, information sur les taux d'obtention, blocs de compétences, équivalences, passerelles, suites de parcours (dont poursuites d'études) et débouchés.
 - **Indicateur 12** : engagement des bénéficiaires et prévention des ruptures, **et prévention et traitement des violences (dont violences sexistes et sexuelles), du harcèlement et des discriminations** en formation.
@@ -41,7 +41,7 @@ Le référentiel passe de **32 à 33 indicateurs**, toujours sur **7 critères**
 - **Indicateur 27** : sous-traitance et portage, conformité au référentiel et **traçabilité dans les contrats de sous-traitance**.
 - **Indicateur 32** : amélioration continue à partir des appréciations et réclamations, **et analyse des risques sur la qualité des formations**.
 
-> Numérotation (inchangée de 1 à 32) : 1-3 information ; 4-8 conception ; 9-16 mise en œuvre et accompagnement ; 17-20 moyens ; 21-22 compétences ; 23-29 environnement professionnel ; 30-33 appréciations et réclamations. Indicateurs spécifiques : 3, 7, 8, 16 (certification) ; 13-15 et 20 (apprentissage/alternance) ; 28-29 (FEST, insertion).
+> Numérotation (inchangée de 1 à 32) : 1-3 information ; 4-8 conception ; 9-16 mise en œuvre et accompagnement ; 17-20 moyens ; 21-22 compétences ; 23-29 environnement professionnel ; 30-33 appréciations et réclamations. Certains indicateurs ne s'appliquent qu'à certaines catégories d'actions (notamment 3, 7, 8, 13 à 16, 20, 28, 29 et 33) : toujours lire la colonne des catégories de l'annexe avant d'imposer un indicateur.
 
 Les repères erronés fréquents dans d'anciens supports : sous-traitance = **27** (pas 21-22) ; objectifs = **5** (pas 1) ; positionnement = **8** ; handicap = **26** (réseaux et expertises), **10** (adaptation), **4** (besoin) ; évaluation de l'atteinte des objectifs = **11** ; engagement = **12**.
 
@@ -62,7 +62,7 @@ Les repères erronés fréquents dans d'anciens supports : sous-traitance = **27
 - **Échantillonnage** représentatif, **non communiqué avant la réunion d'ouverture**.
 - **Preuves** : l'organisme doit disposer de toutes les preuves. **L'absence de preuve le jour de l'audit donne lieu à une non-conformité.** Au moins une action de chaque catégorie visée doit avoir été mise en œuvre pour déclencher l'audit.
 - **Nouvel entrant** (première année d'activité, ou nouvelle catégorie d'actions pour les indicateurs concernés) : pour les indicateurs **2, 3, 11, 13, 14, 19, 24, 25 et 26**, l'audit initial vérifie la **formalisation du processus**, la mise en œuvre effective étant vérifiée à l'audit de surveillance. En cas de **changement substantiel de gouvernance ou de statuts dans les 14 mois** suivant la première certification : suspension jusqu'à un **audit complémentaire sur site**. L'organisme doit prévenir le certificateur sans délai.
-- **Résultats** : le support d'audit mentionne l'échantillonnage et sa justification, ainsi que les preuves consultées. **Cinq non-conformités mineures non levées à la décision valent non-conformité majeure** (seuil en vigueur le 1er novembre 2026). Pas de certificat tant qu'une majeure reste ouverte. Le certificat peut être délivré sur les seules catégories conformes.
+- **Résultats** : le support d'audit mentionne l'échantillonnage et sa justification, ainsi que les preuves consultées. **Au moins cinq non-conformités mineures non levées à la prise de décision constituent une non-conformité majeure** (article 1 bis, V). C'est l'état à la décision qui compte, pas le nombre d'écarts constatés au départ, et seul le certificateur qualifie. Une simulation par IA ne prononce aucune non-conformité. Pas de certificat tant qu'une majeure reste ouverte. Le certificat peut être délivré sur les seules catégories conformes.
 - **Affichage du certificat** dans les locaux et sur le site internet (à défaut, copie sur demande). Le non-respect donne une non-conformité majeure à l'audit de surveillance.
 
 ### Audit de surveillance (art. 2)
@@ -70,7 +70,7 @@ Les repères erronés fréquents dans d'anciens supports : sous-traitance = **27
 - **Revue minimale** : indicateurs ayant fait l'objet de non-conformités (efficacité des actions correctives), indicateurs ne pouvant donner lieu qu'à non-conformité majeure, **indicateurs 1, 9 (formations à distance), 17, 19 et 3 si concerné**, et indicateurs non vus à l'initial si durée aménagée. Nouvel entrant : **revue de tous les indicateurs applicables**.
 - Durée **majorée d'une demi-journée pour un nouvel entrant** (d'une journée si apprentissage ou CA ≥ 750 000 €).
 - **Modalité** : **à distance par principe**. **Sur site** dans ces cas : signalements conformes aux règles de réclamation du certificateur, résultat d'une analyse de risque issue de l'audit précédent, multi-sites (échantillon), **nouvel entrant**, **organisme réalisant de l'apprentissage**, ou demande de l'organisme audité.
-- L'auditeur analyse les éléments administratifs, une ou plusieurs actions conduites depuis le précédent audit et la démarche d'amélioration. Aucune action dans une catégorie depuis l'audit initial : retrait sur cette catégorie.
+- L'auditeur analyse les éléments administratifs, une ou plusieurs actions conduites depuis le précédent audit et la démarche d'amélioration. Si aucune prestation n'a été réalisée dans la catégorie des actions de formation ou des actions de formation par apprentissage depuis l'audit initial, la certification est retirée sur cette catégorie.
 
 ### Audit de renouvellement (art. 3)
 - **Sur place**, avant l'échéance, dans des délais permettant de lever les majeures. Déroulé identique à un audit initial, avec vérification des actions correctives de la surveillance.
@@ -101,9 +101,9 @@ Majorations selon les catégories d'actions (L. 6313-1 1° à 4°) et sites éch
 
 ## 5. Conséquences pour l'assistant
 
-1. **Demander la date d'audit** pour choisir V9 (transitoire, jusqu'au 31/12/2026) ou V10.
+1. **Appliquer la V10 par défaut.** Ne mentionner la période transitoire que si elle change matériellement la réponse.
 2. **Dire qui répond à l'auditeur** : dirigeant ou salarié mandaté permanent, jamais le consultant seul.
 3. **Préparer des preuves immédiatement disponibles** : l'absence de preuve le jour J est une non-conformité.
 4. **Distinguer les profils** : nouvel entrant, CFA/apprentissage, multi-sites, renouvellement, car les modalités changent (sur site ou distance, indicateurs revus, durée).
-5. **Compter les mineures** : cinq mineures non levées valent une majeure.
-6. **Ne jamais présenter** comme certain ce qui provient seulement de commentaires de certificateurs : renvoyer au texte.
+5. **Compter les mineures à la décision** : cinq mineures non levées à la prise de décision valent une majeure. Ne pas assimiler des écarts potentiels relevés par une IA à des non-conformités.
+6. **Ne jamais présenter** comme une règle ce qui provient seulement de commentaires ou du guide de lecture : renvoyer au texte et distinguer les niveaux.
