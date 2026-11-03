@@ -25,18 +25,39 @@ const MAX_MARCHES = {
   complexite: 4
 };
 
+// Table de concordance coefficients / paliers : article 20.6 de la CCN IDCC 1516 (accord du 16 janvier 2017, étendu par arrêté du 15 janvier 2020)
 const PALIERS = [
-  {min: 100, max: 109, palier: 1}, {min: 110, max: 119, palier: 2}, {min: 120, max: 129, palier: 3},
-  {min: 130, max: 139, palier: 4}, {min: 140, max: 149, palier: 5}, {min: 150, max: 159, palier: 6},
-  {min: 160, max: 169, palier: 7}, {min: 170, max: 179, palier: 8}, {min: 180, max: 189, palier: 9},
-  {min: 190, max: 199, palier: 10}, {min: 200, max: 209, palier: 11}, {min: 210, max: 219, palier: 12},
-  {min: 220, max: 229, palier: 13}, {min: 230, max: 239, palier: 14}, {min: 240, max: 249, palier: 15},
-  {min: 250, max: 259, palier: 16}, {min: 260, max: 269, palier: 17}, {min: 270, max: 279, palier: 18},
-  {min: 280, max: 289, palier: 19}, {min: 290, max: 299, palier: 20}, {min: 300, max: 309, palier: 21},
-  {min: 310, max: 319, palier: 22}, {min: 320, max: 329, palier: 23}, {min: 330, max: 339, palier: 24},
-  {min: 340, max: 349, palier: 25}, {min: 350, max: 399, palier: 26}, {min: 400, max: 449, palier: 27},
-  {min: 450, max: 499, palier: 28}, {min: 500, max: 549, palier: 29}, {min: 550, max: 599, palier: 30},
-  {min: 600, max: 999, palier: 31}
+  {min: 100, max: 109, palier: 1},
+  {min: 110, max: 119, palier: 2},
+  {min: 120, max: 132, palier: 3},
+  {min: 133, max: 144, palier: 4},
+  {min: 145, max: 157, palier: 5},
+  {min: 158, max: 170, palier: 6},
+  {min: 171, max: 185, palier: 7},
+  {min: 186, max: 199, palier: 8},
+  {min: 200, max: 206, palier: 9},
+  {min: 207, max: 213, palier: 10},
+  {min: 214, max: 219, palier: 11},
+  {min: 220, max: 226, palier: 12},
+  {min: 227, max: 233, palier: 13},
+  {min: 234, max: 239, palier: 14},
+  {min: 240, max: 245, palier: 15},
+  {min: 246, max: 251, palier: 16},
+  {min: 252, max: 257, palier: 17},
+  {min: 258, max: 263, palier: 18},
+  {min: 264, max: 269, palier: 19},
+  {min: 270, max: 277, palier: 20},
+  {min: 278, max: 285, palier: 21},
+  {min: 286, max: 293, palier: 22},
+  {min: 294, max: 301, palier: 23},
+  {min: 302, max: 309, palier: 24},
+  {min: 310, max: 349, palier: 25},
+  {min: 350, max: 399, palier: 26},
+  {min: 400, max: 449, palier: 27},
+  {min: 450, max: 499, palier: 28},
+  {min: 500, max: 549, palier: 29},
+  {min: 550, max: 599, palier: 30},
+  {min: 600, max: 9999, palier: 31}
 ];
 
 const FILIERES = [
@@ -232,11 +253,12 @@ export default function QuizPositionnement() {
 
     if (totalPoints >= 350) {
       statut = "Cadre";
-    } else if (totalPoints >= 310 && totalPoints <= 349 && 
-               mgmtMarche >= 3 && ampleurMarche >= 4 && autoMarche >= 6) {
+    } else if (totalPoints >= 310 && totalPoints <= 349 &&
+               // article 20.7.3 : au moins deux des trois conditions
+               [mgmtMarche >= 3, ampleurMarche >= 4, autoMarche >= 6].filter(Boolean).length >= 2) {
       statut = "Cadre";
     } else if (totalPoints >= 171) {
-      statut = "Technicien";
+      statut = "Agent de maîtrise ou technicien";
     }
 
     const finalResult = {
