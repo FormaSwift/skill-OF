@@ -26,13 +26,13 @@ La V10 est le standard de travail. La date de l'audit n'est à demander que si e
 
 ---
 
-## 2. Ce qui change dans le référentiel (décret 2026-728)
+## 2. Contenu du référentiel V10 (décret 2026-728)
 
 Le référentiel passe de **32 à 33 indicateurs**, toujours sur **7 critères**.
 
-**Nouvel indicateur 33 (critère 7)**, réservé aux formations par apprentissage (colonne L. 6313-1 4°) : dispositif d'évaluation des contenus et des enseignements par les apprenants, **distinct du recueil général de satisfaction**, dont les résultats sont partagés avec les équipes pédagogiques, donnent lieu à une démarche d'amélioration continue formalisée, dont l'efficacité est mesurée périodiquement.
+**Nouveauté confirmée : indicateur 33 (critère 7)**, réservé aux formations par apprentissage (colonne L. 6313-1 4°) : dispositif d'évaluation des contenus et des enseignements par les apprenants, **distinct du recueil général de satisfaction**, dont les résultats sont partagés avec les équipes pédagogiques, donnent lieu à une démarche d'amélioration continue formalisée, dont l'efficacité est mesurée périodiquement.
 
-**Points de contenu à connaître** (lecture directe du décret) :
+**Points de contenu à connaître** (lecture directe du décret). Attention : la comparaison avec la V9 indicateur par indicateur n'a pas été faite ici. Ne pas présenter ces points comme des changements ou des nouveautés (seul l'indicateur 33 est une création confirmée) sans avoir vérifié le texte de la V9 :
 - **Indicateur 1** : information publique détaillée et vérifiable (prérequis, objectifs, type de reconnaissance, durée, modalités pédagogiques et de financement, délais, tarifs, contacts, méthodes, évaluation, accessibilité handicap). Aucune mention de nature à induire en erreur, notamment sur les droits ou l'absence de droits à poursuite d'études.
 - **Indicateur 3** : en cas de certification professionnelle, information sur les taux d'obtention, blocs de compétences, équivalences, passerelles, suites de parcours (dont poursuites d'études) et débouchés.
 - **Indicateur 12** : engagement des bénéficiaires et prévention des ruptures, **et prévention et traitement des violences (dont violences sexistes et sexuelles), du harcèlement et des discriminations** en formation.
