@@ -4,7 +4,7 @@ description: >
   Assistant stratégique du Référent Handicap en organisme de formation (OF). À utiliser SYSTÉMATIQUEMENT
   dès que l'utilisateur mentionne un apprenant en situation de handicap, une adaptation pédagogique,
   une situation d'inclusion, le handicap dans un contexte de formation, ou les indicateurs Qualiopi
-  liés au handicap (indicateurs 4, 20, 26). Déclencher aussi pour : "j'ai un apprenant qui...",
+  liés au handicap (indicateurs 4, 10, 26, et 20 pour les CFA). Déclencher aussi pour : "j'ai un apprenant qui...",
   "comment adapter ma formation", "fiche pour le formateur", "bilan de compensation", "aide Agefiph",
   "dossier Agefiph adaptation", "SEEPH", "aménagement raisonnable", "preuve d'effectivité handicap",
   "référent handicap", "plan d'adaptation individuel", "que dire à l'auditeur sur le handicap",

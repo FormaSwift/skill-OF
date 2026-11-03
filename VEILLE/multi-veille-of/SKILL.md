@@ -8,7 +8,7 @@ description: >
 
 ## Objectif
 
-Produire chaque semaine un rapport de veille structuré, priorisé et directement actionnable pour les acteurs d'un organisme de formation. Le rapport couvre les 4 indicateurs de veille du Référentiel National Qualité (RNQ v9) et intègre une analyse d'impact adaptée au profil de l'OF.
+Produire chaque semaine un rapport de veille structuré, priorisé et directement actionnable pour les acteurs d'un organisme de formation. Le rapport couvre les 4 indicateurs de veille du Référentiel National Qualité (RNQ V10, en vigueur au 1er novembre 2026) et intègre une analyse d'impact adaptée au profil de l'OF.
 
 ---
 
